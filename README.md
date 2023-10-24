@@ -16,5 +16,6 @@ Before running the tests, make sure you have the following prerequisites:
   pip install -r requirements.txt
 
   k6 run k6_account_creation.js
-k6 run k6_unauthorized_access.js
+  k6 run k6_unauthorized_access.js
+
 
