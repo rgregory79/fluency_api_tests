@@ -9,7 +9,12 @@ This project contains automated tests for the "Account Management" section of Fl
 Before running the tests, make sure you have the following prerequisites:
 
 - Python (3.x recommended) installed on your system.
+- Install K6 for performance, load and stress testing
 - Required Python libraries installed using `pip`:
 
   ```shell
   pip install -r requirements.txt
+
+  k6 run k6_account_creation.js
+k6 run k6_unauthorized_access.js
+
